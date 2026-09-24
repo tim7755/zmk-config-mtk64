@@ -46,7 +46,7 @@
         default_layer {
             display-name = "DEF";
             bindings = <
-&kp LANG_ZENKAKUHANKAKU  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp JP_MINUS  &kp TAB  &mt LCTRL Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt RIGHT_ALT AT_SIGN  &kp LS(TAB)  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &mt LCTRL J  &lt 3 K  &kp L  &kp SEMI  &mt RIGHT_ALT APOS  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp LG(LS(TAB))  &kp JP_RBKT  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &mt RIGHT_SHIFT INTERNATIONAL_1  &kp LCTRL  &kp LEFT_ALT  &lt 2 SPACE  &lt 4 SPACE  &lt 4 BACKSPACE  &mt RIGHT_SHIFT ENTER  &mt RIGHT_ALT INTERNATIONAL_3  &mt RCTRL INTERNATIONAL_3  &tog 2  &kp ENTER  &lt 5 LANG_ZENKAKUHANKAKU  &kp LEFT_WIN  &kp ENTER  &tog 2  &lt 1 ESC  &lt 1 DELETE  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&kp LANG_ZENKAKUHANKAKU  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp JP_MINUS  &kp TAB  &mt LCTRL Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt RIGHT_ALT JP_AT  &kp LS(TAB)  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &mt LCTRL J  &lt 3 K  &kp L  &kp JP_SEMI  &mt RIGHT_ALT JP_COLON  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp LG(LS(TAB))  &kp JP_RBKT  &kp N  &kp M  &kp COMMA  &kp DOT  &kp JP_SLASH  &mt RIGHT_SHIFT JP_BSLH  &kp LCTRL  &kp LEFT_ALT  &lt 2 SPACE  &lt 4 SPACE  &lt 4 BACKSPACE  &mt RIGHT_SHIFT ENTER  &mt RIGHT_ALT JP_CARET  &mt RCTRL JP_YEN  &tog 2  &kp ENTER  &lt 5 LANG_ZENKAKUHANKAKU  &kp LEFT_WIN  &kp ENTER  &tog 2  &lt 1 ESC  &lt 1 DELETE  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings = <
