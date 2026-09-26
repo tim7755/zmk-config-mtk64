@@ -46,7 +46,7 @@
         default_layer {
             display-name = "DEF";
             bindings = <
-&kp LANG_ZENKAKUHANKAKU  &kp N1  &kp N2  &kp N3  &kp N4  &lt 5 N5  &lt 5 N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp JP_MINUS  &kp TAB  &mt LCTRL Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt RIGHT_ALT JP_AT  &kp LS(TAB)  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &mt LCTRL J  &lt 3 K  &kp L  &kp JP_SEMI  &mt RIGHT_ALT JP_COLON  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &mo 4  &mo 2  &kp N  &kp M  &kp COMMA  &kp DOT  &kp JP_SLASH  &mt RIGHT_SHIFT JP_BSLH  &kp LCTRL  &kp LEFT_ALT  &lt 2 SPACE  &lt 4 SPACE  &lt 4 BACKSPACE  &mt RIGHT_SHIFT ENTER  &mt RIGHT_ALT JP_CARET  &mt RCTRL JP_YEN  &tog 2  &kp LG(TAB)  &lt 1 LANG_ZENKAKUHANKAKU  &kp LEFT_WIN  &kp ENTER  &tog 2  &lt 4 ESC  &lt 1 DELETE  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&kp LANG_ZENKAKUHANKAKU  &kp N1  &kp N2  &kp N3  &kp N4  &lt 5 N5  &lt 5 N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp JP_MINUS  &kp TAB  &mt LCTRL Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt RIGHT_ALT JP_AT  &kp LS(TAB)  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &mt LCTRL J  &lt 3 K  &kp L  &kp JP_SEMI  &mt RIGHT_ALT JP_COLON  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &mo 4  &mo 2  &kp N  &kp M  &kp COMMA  &kp DOT  &kp JP_SLASH  &mt RIGHT_SHIFT JP_BSLH  &kp LCTRL  &kp LEFT_ALT  &lt 2 SPACE  &lt 4 SPACE  &lt 4 BACKSPACE  &mt RIGHT_SHIFT ENTER  &mt RIGHT_ALT JP_CARET  &mt RCTRL JP_YEN  &aml_tog  &kp LG(TAB)  &lt 1 LANG_ZENKAKUHANKAKU  &kp LEFT_WIN  &kp ENTER  &tog 2  &lt 4 ESC  &lt 1 DELETE  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings = <
@@ -80,7 +80,7 @@
         Scroll {
             display-name = "SCR";
             bindings = <
-&kp ESCAPE  &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp K_UNDO  &kp HOME  &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &kp K_REDO  &kp LG(LS(LEFT_ARROW))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(LS(RIGHT_ARROW))  &kp LEFT_GUI  &kp RCTRL  &trans  &kp RIGHT_ALT  &trans  &trans  &kp K_UNDO  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LG(V)  &kp LC(Y)  &kp LA(LC(TAB))  &trans  &trans  &kp LC(LEFT_SHIFT)  &trans  &trans  &trans  &trans  &kp LCTRL  &kp LEFT_ALT  &mt LEFT_WIN SPACE  &mt LCTRL SPACE  &mt LS(RCTRL) BACKSPACE  &mt RIGHT_SHIFT ENTER  &trans  &trans  &kp LA(LC(TAB))  &kp LG(TAB)  &kp LEFT_ALT  &mt LG(DELETE) LA(LC(DELETE))  &kp ESC  &kp RIGHT_WIN  &mt LC(LEFT_WIN) ESC  &mt RIGHT_ALT DELETE  &kp ESC  &mt RIGHT_ALT DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp K_UNDO  &kp HOME  &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &kp K_REDO  &kp LG(LS(LEFT_ARROW))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(LS(RIGHT_ARROW))  &kp LEFT_GUI  &kp RCTRL  &trans  &kp RIGHT_ALT  &trans  &trans  &kp K_UNDO  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LG(V)  &kp LC(Y)  &kp LA(LC(TAB))  &scrl_inv_tog  &trans  &kp LC(LEFT_SHIFT)  &trans  &trans  &trans  &trans  &kp LCTRL  &kp LEFT_ALT  &mt LEFT_WIN SPACE  &mt LCTRL SPACE  &mt LS(RCTRL) BACKSPACE  &mt RIGHT_SHIFT ENTER  &trans  &trans  &kp LA(LC(TAB))  &kp LG(TAB)  &kp LEFT_ALT  &mt LG(DELETE) LA(LC(DELETE))  &kp ESC  &kp RIGHT_WIN  &mt LC(LEFT_WIN) ESC  &mt RIGHT_ALT DELETE  &kp ESC  &mt RIGHT_ALT DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
@@ -91,7 +91,7 @@
         NUMBER_Layer {
             display-name = "NUM";
             bindings = <
-&kp ESC  &kp SEMI  &kp APOS  &kp I  &kp I  &kp F5  &kp KP_EQUAL  &kp N7  &kp N8  &kp N9  &kp EQUAL  &kp TILDE  &kp TAB  &kp Q  &kp LBKT  &kp RBKT  &kp LALT  &kp LGUI  &kp KP_ASTERISK  &kp N4  &kp N5  &kp N6  &kp KP_PLUS  &kp SEMI  &kp TAB  &kp F10  &kp LS(N8)  &kp LS(N9)  &kp LCTRL  &kp LALT  &kp KP_SLASH  &kp N1  &kp N2  &kp N3  &kp KP_MINUS  &kp COLON  &kp LSHFT  &kp N7  &kp GRAVE  &kp EQUAL  &kp LG(V)  &kp LC(B)  &mo 0  &mo 2  &kp EQUAL  &kp N0  &kp COMMA  &kp DOT  &kp INTERNATIONAL_1  &kp RIGHT_SHIFT  &kp LCTRL  &kp LALT  &kp SPACE  &kp SPACE  &mt RCTRL BACKSPACE  &mt RIGHT_SHIFT ENTER  &kp RIGHT_ALT  &kp RCTRL  &trans  &trans  &kp LANG_ZENKAKUHANKAKU  &kp LEFT_WIN  &trans  &trans  &kp ESC  &kp DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp SEMI  &kp APOS  &kp I  &kp I  &kp F5  &kp KP_EQUAL  &kp N7  &kp N8  &kp N9  &kp EQUAL  &kp TILDE  &kp TAB  &kp Q  &kp LBKT  &kp RBKT  &kp LALT  &kp LGUI  &kp KP_ASTERISK  &kp N4  &kp N5  &kp N6  &kp KP_PLUS  &kp SEMI  &kp TAB  &kp F10  &kp LS(N8)  &kp LS(N9)  &kp LCTRL  &kp LALT  &kp KP_SLASH  &kp N1  &kp N2  &kp N3  &kp KP_MINUS  &kp JP_COLON  &kp LSHFT  &kp N7  &kp GRAVE  &kp EQUAL  &kp LG(V)  &kp LC(B)  &mo 0  &mo 2  &kp EQUAL  &kp N0  &kp COMMA  &kp DOT  &kp JP_BSLH  &kp RIGHT_SHIFT  &kp LCTRL  &kp LALT  &kp SPACE  &kp SPACE  &mt RCTRL BACKSPACE  &mt RIGHT_SHIFT ENTER  &kp RIGHT_ALT  &kp RCTRL  &trans  &trans  &kp LANG_ZENKAKUHANKAKU  &kp LEFT_WIN  &trans  &trans  &kp ESC  &kp DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
@@ -102,7 +102,7 @@
         SETTING {
             display-name = "SET";
             bindings = <
-&trans  &trans  &trans  &trans  &mkp MB3  &trans  &trans  &mkp MB3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB4  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB5  &mkp MB5  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB1  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &aml_tog  &trans  &trans  &aml_tog  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &cpi_inc  &cpi_inc  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &cpi_dec  &cpi_dec  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &scrl_inv_tog  &scrl_inv_tog  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
