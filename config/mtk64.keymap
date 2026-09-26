@@ -113,7 +113,7 @@
         Auto_Mouse {
             display-name = "AML";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LG(V)  &mkp MB5  &mkp MB1  &mo 3  &mkp MB2  &trans  &trans  &trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &mkp MB4  &trans  &mkp MB4  &mkp MB3  &mkp MB3  &trans  &trans  &trans  &trans  &trans  &trans  &kp BACKSPACE  &mt LEFT_SHIFT ENTER  &trans  &trans  &trans  &trans  &trans  &kp LEFT_WIN  &trans  &trans  &trans  &kp DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp LG(V)  &mkp MB5  &mkp MB1  &mo 3  &mkp MB2  &trans  &trans  &trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &mkp MB4  &trans  &mkp MB4  &mkp MB3  &mkp MB3  &trans  &trans  &trans  &trans  &mo 0  &trans  &kp BACKSPACE  &mt LEFT_SHIFT ENTER  &trans  &trans  &trans  &trans  &trans  &kp LEFT_WIN  &trans  &trans  &trans  &kp DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
