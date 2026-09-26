@@ -46,7 +46,7 @@
         default_layer {
             display-name = "DEF";
             bindings = <
-&kp LANG_ZENKAKUHANKAKU  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp JP_MINUS  &kp TAB  &mt LCTRL Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt RIGHT_ALT JP_AT  &kp LS(TAB)  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &mt LCTRL J  &lt 3 K  &kp L  &kp JP_SEMI  &mt RIGHT_ALT JP_COLON  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp LG(LS(TAB))  &kp JP_RBKT  &kp N  &kp M  &kp COMMA  &kp DOT  &kp JP_SLASH  &mt RIGHT_SHIFT JP_BSLH  &kp LCTRL  &kp LEFT_ALT  &lt 2 SPACE  &lt 4 SPACE  &lt 4 BACKSPACE  &mt RIGHT_SHIFT ENTER  &mt RIGHT_ALT JP_CARET  &mt RCTRL JP_YEN  &tog 2  &kp ENTER  &lt 5 LANG_ZENKAKUHANKAKU  &kp LEFT_WIN  &kp ENTER  &tog 2  &lt 1 ESC  &lt 1 DELETE  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&kp LANG_ZENKAKUHANKAKU  &kp N1  &kp N2  &kp N3  &kp N4  &lt 5 N5  &lt 5 N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp JP_MINUS  &kp TAB  &mt LCTRL Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &mt RIGHT_ALT JP_AT  &kp LS(TAB)  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &mt LCTRL J  &lt 3 K  &kp L  &kp JP_SEMI  &mt RIGHT_ALT JP_COLON  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &mo 4  &mo 2  &kp N  &kp M  &kp COMMA  &kp DOT  &kp JP_SLASH  &mt RIGHT_SHIFT JP_BSLH  &kp LCTRL  &kp LEFT_ALT  &lt 2 SPACE  &lt 4 SPACE  &lt 4 BACKSPACE  &mt RIGHT_SHIFT ENTER  &mt RIGHT_ALT JP_CARET  &mt RCTRL JP_YEN  &tog 2  &kp LG(TAB)  &lt 1 LANG_ZENKAKUHANKAKU  &kp LEFT_WIN  &kp ENTER  &tog 2  &lt 4 ESC  &lt 1 DELETE  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings = <
@@ -58,18 +58,18 @@
         Snipe {
             display-name = "SNP";
             bindings = <
-&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp LC(W)  &kp LA(F4)  &kp LEFT_ALT  &mt LEFT_SHIFT PAGE_UP  &kp LCTRL  &kp LG(LS(S))  &kp LC(Y)  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp RCTRL  &kp PRINTSCREEN  &kp F12  &kp LEFT_SHIFT  &kp LC(A)  &kp LC(S)  &mt LCTRL PAGE_DOWN  &kp LC(F)  &kp LG(V)  &kp HOME  &mkp MB1  &mo 3  &mkp MB2  &kp LCTRL  &kp AT_SIGN  &kp LEFT_SHIFT  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LG(V)  &kp LC(LA(TAB))  &kp EQUAL  &mkp MB4  &mkp MB5  &mkp MB4  &mkp MB3  &kp RIGHT_WIN  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &none  &mo 4  &mt LCTRL BACKSPACE  &mt LEFT_SHIFT ENTER  &kp RIGHT_ALT  &kp LCTRL  &none  &none  &kp ESC  &kp RIGHT_WIN  &trans  &trans  &kp ESC  &mt RIGHT_ALT DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp LC(W)  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp LC(Y)  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp RCTRL  &kp LG(LS(S))  &kp F12  &kp LEFT_SHIFT  &kp F6  &mt LEFT_ALT F7  &mt LCTRL F8  &mt RIGHT_SHIFT F9  &kp F10  &mkp MB5  &mkp MB1  &mo 3  &mkp MB2  &kp LCTRL  &kp AT_SIGN  &kp LEFT_SHIFT  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LG(V)  &kp LC(LA(TAB))  &kp EQUAL  &mkp MB4  &kp LC(N1)  &mkp MB4  &mkp MB3  &kp RIGHT_WIN  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &none  &mo 4  &mt LCTRL BACKSPACE  &mt LEFT_SHIFT ENTER  &kp RIGHT_ALT  &kp LCTRL  &none  &none  &kp ESC  &kp RIGHT_WIN  &trans  &trans  &kp ESC  &mt RIGHT_ALT DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
-                <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>,
-                <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+                <&scroll_left_right SCRL_LEFT SCRL_RIGHT>,
+                <&scroll_up_down SCRL_UP SCRL_DOWN>;
         };
 
         Mouse {
             display-name = "MSE";
             bindings = <
-&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp LC(W)  &kp LA(F4)  &kp LEFT_ALT  &mt LEFT_SHIFT PAGE_UP  &kp LCTRL  &kp LG(LS(S))  &kp LC(Y)  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp RCTRL  &kp PRINTSCREEN  &kp F12  &kp TAB  &kp LC(A)  &kp LC(S)  &mt LCTRL PAGE_DOWN  &kp LC(F)  &kp LG(V)  &kp HOME  &mkp MB1  &mo 3  &mkp MB2  &kp LCTRL  &kp AT_SIGN  &kp LEFT_SHIFT  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(LA(TAB))  &kp EQUAL  &mkp MB4  &mkp MB5  &mkp MB4  &mkp MB3  &kp RIGHT_WIN  &trans  &kp RIGHT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &none  &mo 4  &mt LCTRL BACKSPACE  &mt LEFT_SHIFT ENTER  &trans  &trans  &trans  &trans  &kp ESC  &kp RIGHT_WIN  &trans  &trans  &kp ESC  &mt RIGHT_ALT DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp LC(W)  &kp LA(F4)  &kp LEFT_ALT  &mt LEFT_SHIFT PAGE_UP  &kp LCTRL  &kp LG(LS(S))  &kp LC(Y)  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp RCTRL  &kp LS(LG(S))  &kp F12  &kp TAB  &kp LC(A)  &mt LC(LEFT_ALT) LC(S)  &mt LCTRL PAGE_DOWN  &mt LC(LEFT_SHIFT) LC(F)  &kp LS(F10)  &mkp MB5  &mkp MB1  &mo 3  &mkp MB2  &kp LCTRL  &kp AT_SIGN  &kp LEFT_SHIFT  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(LA(TAB))  &mo 4  &mo 0  &kp LC(N1)  &mkp MB4  &mkp MB3  &kp RIGHT_WIN  &kp RIGHT_ALT  &kp RIGHT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &kp SPACE  &mo 4  &mt LCTRL BACKSPACE  &mt LEFT_SHIFT ENTER  &kp RIGHT_ALT  &kp RCTRL  &trans  &trans  &kp ESC  &kp RIGHT_WIN  &trans  &trans  &kp ESC  &mt RIGHT_ALT DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
@@ -80,7 +80,7 @@
         Scroll {
             display-name = "SCR";
             bindings = <
-&kp ESCAPE  &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans  &kp LG(LS(RIGHT_ARROW))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans &trans  &trans  &trans  &trans  &kp ESC  &kp RIGHT_WIN  &trans  &trans  &kp ESC  &mt RIGHT_ALT DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE  &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp HOME  &kp HOME  &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)  &kp END  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LG(LS(RIGHT_ARROW))  &kp LEFT_GUI  &kp RCTRL  &trans  &kp RIGHT_ALT  &trans  &trans  &kp LEFT_SHIFT  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LG(V)  &kp LC(Y)  &kp LA(LC(TAB))  &trans  &trans  &kp LC(LEFT_SHIFT)  &trans  &trans  &trans  &trans  &kp LCTRL  &kp LEFT_ALT  &mt LEFT_WIN SPACE  &mt LCTRL SPACE  &mt LS(RCTRL) BACKSPACE  &mt RIGHT_SHIFT ENTER  &trans  &trans  &kp LA(LC(TAB))  &kp LG(TAB)  &kp LEFT_ALT  &mt LG(DELETE) LA(LC(DELETE))  &kp ESC  &kp RIGHT_WIN  &mt LC(LEFT_WIN) ESC  &mt RIGHT_ALT DELETE  &kp ESC  &mt RIGHT_ALT DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
@@ -91,7 +91,7 @@
         NUMBER_Layer {
             display-name = "NUM";
             bindings = <
-&kp ESC  &kp SEMI  &kp APOS  &kp I  &kp I  &kp F5  &kp KP_EQUAL  &kp N7  &kp N8  &kp N9  &kp EQUAL  &kp TILDE  &kp TAB  &kp Q  &kp LBKT  &kp RBKT  &kp LALT  &kp LGUI  &kp KP_ASTERISK  &kp N4  &kp N5  &kp N6  &kp KP_PLUS  &kp SEMI  &kp TAB  &kp F10  &kp LS(N8)  &kp LS(N9)  &kp LCTRL  &kp LALT  &kp KP_SLASH  &kp N1  &kp N2  &kp N3  &kp KP_MINUS  &kp APOS  &kp LSHFT  &kp N7  &kp GRAVE  &kp EQUAL  &kp MINUS  &kp B  &trans  &trans  &kp EQUAL  &kp N0  &kp COMMA  &kp DOT  &kp INTERNATIONAL_1  &kp SEMICOLON  &kp LCTRL  &kp LALT  &trans  &trans  &mt RCTRL BACKSPACE  &mt RIGHT_SHIFT ENTER  &kp LGUI  &kp RCTRL  &trans  &trans  &trans  &kp MINUS  &trans  &trans  &trans  &kp DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC  &kp SEMI  &kp APOS  &kp I  &kp I  &kp F5  &kp KP_EQUAL  &kp N7  &kp N8  &kp N9  &kp EQUAL  &kp TILDE  &kp TAB  &kp Q  &kp LBKT  &kp RBKT  &kp LALT  &kp LGUI  &kp KP_ASTERISK  &kp N4  &kp N5  &kp N6  &kp KP_PLUS  &kp SEMI  &kp TAB  &kp F10  &kp LS(N8)  &kp LS(N9)  &kp LCTRL  &kp LALT  &kp KP_SLASH  &kp N1  &kp N2  &kp N3  &kp KP_MINUS  &kp APOS  &kp LSHFT  &kp N7  &kp GRAVE  &kp EQUAL  &kp LG(V)  &kp LC(B)  &mo 0  &mo 2  &kp EQUAL  &kp N0  &kp COMMA  &kp DOT  &kp INTERNATIONAL_1  &kp RIGHT_SHIFT  &kp LCTRL  &kp LALT  &kp SPACE  &kp SPACE  &mt RCTRL BACKSPACE  &mt RIGHT_SHIFT ENTER  &kp RIGHT_ALT  &kp RCTRL  &trans  &trans  &kp LANG_ZENKAKUHANKAKU  &kp LEFT_WIN  &trans  &trans  &kp ESC  &kp DELETE  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
@@ -99,8 +99,8 @@
                 <&inc_dec_kp UP_ARROW RIGHT_ARROW>;
         };
 
-        NUMBER_SHIFT {
-            display-name = "N-S";
+        SETTING {
+            display-name = "SET";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -119,22 +119,6 @@
             sensor-bindings =
                 <&inc_dec_kp LEFT_ARROW RIGHT_ARROW>,
                 <&inc_dec_kp UP_ARROW DOWN_ARROW>;
-        };
-
-        SETTING {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            label = "SET";
-        };
-
-        ARROWS {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-
-            label = "ARW";
         };
     };
 };
